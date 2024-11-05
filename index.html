@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Users Table</title>
+</head>
+<body>
+  <h1>Users</h1>
+  <table id="usersTable">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </table>
+  <button id="addUserBtn">Add User</button>
+
+  <div id="userForm" style="display: none;">
+    <label for="userName">Name:</label>
+    <input type="text" id="userName" required>
+    <label for="userAge">Age:</label>
+    <input type="number" id="userAge" required>
+    <button id="submitUser">Submit</button>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
